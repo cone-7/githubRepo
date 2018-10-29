@@ -1,0 +1,67 @@
+$font-stack:    Helvetica, sans-serif;
+
+body {
+  font: 100% $font-stack;
+}
+
+.main {
+  text-align: center;
+  font-size: 30px;
+}
+
+.title {
+  background-color: #03a9f4;
+  color: white;
+  padding-top: 7px;
+  height: 70px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form input {
+  height: 40px;
+  width: 400px;
+}
+
+.form button {
+  height: 30px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.repos-item {
+  height: 100px;
+  margin: 15px 5px;
+  font-size: 20px;
+  padding: 13px 15px;
+  background-color: #FAFAFA;
+}
+
+.link-show {
+  float: right;
+  font-size: 13px;
+  color: blue;
+  cursor: pointer;
+}
+
+.list-repos{
+  width: 35%;
+  float: left;
+}
+
+.comments-list{
+  width: 60%;
+  float: right;
+}
+
+.comment-item{
+  border-radius: 10px;
+  background-color: #EAEAEA;
+  font-size: 18px;
+  word-wrap: break-word;
+  width: 90%;
+  margin: 20px;
+  padding: 15px 8px;
+}

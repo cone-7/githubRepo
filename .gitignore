@@ -1,0 +1,3 @@
+/node_modules
+/app/public/app.bundle.js
+/app/public/vendor.bundle.js

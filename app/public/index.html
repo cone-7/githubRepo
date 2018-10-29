@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="vendor.bundle.js"></script>
+        <script src="app.bundle.js"></script>
+    </head>
+    <body ng-app="mainGit">
+        <div class="main" ng-controller="mainCtrl">
+            <div class="title" ng-bind="hello"></div>
+            <search-repos class="form" repos="repos"></search-repos>
+            <show-repos style="margin-top: 30px;" ng-if="repos.data" repos="repos.data.items"></show-repos>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<div>
+    <div class="list-repos">
+        <div class="repos-item" ng-repeat="repo in repos">    
+            {{repo.full_name}}
+            <span class="link-show" ng-click="getComments(repo)">Show comments</span>
+        </div>
+    </div>
+    <div class="comments-list">
+        <span ng-if="selectedRepo.name">{{selectedRepo.name}}'s comments</span>
+        <div ng-repeat="comment in comments" class="comment-item">
+            {{comment.body}}
+        </div>
+    </div>
+</div>
